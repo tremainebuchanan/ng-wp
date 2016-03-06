@@ -1,0 +1,23 @@
+{
+  "name": "ng-wp",
+  "version": "1",
+  "authors": [
+    "tremainebuchanan <tremainekbuchanan@gmail.com>"
+  ],
+  "description": "Angular Wordpress Experiment",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-mocks": "~1.5.0",
+    "angular-route": "~1.5.0"
+  }
+}

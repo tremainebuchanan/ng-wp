@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /ng-wp/wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /ng-wp/wordpress/index.php [L]
+</IfModule>
+
