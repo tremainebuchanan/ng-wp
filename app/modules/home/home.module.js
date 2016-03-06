@@ -7,7 +7,7 @@
 		$routeProvider
 		.when('/', {
 			controller: 'Home',
-			templateUrl: 'app/modules/home.html'
+			templateUrl: 'app/modules/home/home.html'
 		});
 	}
 })();
