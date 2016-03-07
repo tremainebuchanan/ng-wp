@@ -1,1 +1,0 @@
-!function(){function o(o){o.when("/",{controller:"Home",templateUrl:"app/modules/home/home.html"})}angular.module("home",[]).config(o)}();
