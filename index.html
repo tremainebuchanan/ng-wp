@@ -2,6 +2,9 @@
 <html data-ng-app="ng-wp">
 <head>
 	<title>Angular Wordpress Experiment</title>
+	<!-- inject:css -->
+  	<link rel="stylesheet" href="app/css/main.css">
+  	<!-- endinject -->
 </head>
 <base href="/ng-wp/">
 <body>
@@ -12,11 +15,12 @@
 
 <script type="text/javascript" src="app/libs/angular/angular.js"></script>
 <script type="text/javascript" src="app/libs/angular-route/angular-route.js"></script>
-<script type="text/javascript" src="app/modules/app.js"></script>
-<script type="text/javascript" src="app/modules/home/home.module.js"></script>
-<script type="text/javascript" src="app/modules/home/home.js"></script>
-<!-- <script type="text/javascript" src="build/src/app.js"></script>
-<script type="text/javascript" src="build/src/home/home.module.js"></script>
-<script type="text/javascript" src="build/src/home/home.js"></script> -->
+<!-- inject:js -->
+<script src="app/modules/app.module.js"></script>
+<script src="app/modules/about/about.module.js"></script>
+<script src="app/modules/home/home.module.js"></script>
+<script src="app/modules/about/about.controller.js"></script>
+<script src="app/modules/home/home.controller.js"></script>
+<!-- endinject -->
 </body>
 </html>
