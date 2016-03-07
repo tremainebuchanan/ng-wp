@@ -1,0 +1,1 @@
+!function(){function n(n){n.html5Mode(!0)}angular.module("ng-wp",["ngRoute","home"]).config(n)}();
